@@ -1,10 +1,12 @@
 {
   "Example 1": {
     "file": "390116-9.pck",
-    "finding": "ACL labeled healthy."
+    "finding": "ACL labeled healthy.",
+    "sha256": "0d62169d50586f7344dff0e7b344cf7db2f0ece6940bfcd6ee07eb589f3b89ed"
   },
   "Example 2": {
     "file": "457511-7.pck",
-    "finding": "ACL labeled partially injured."
+    "finding": "ACL labeled partially injured.",
+    "sha256": "f7fa354d89331931bbe247e3de275a246f960c143a6ac962140951b94cd3280d"
   }
 }
