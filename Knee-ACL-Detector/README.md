@@ -17,7 +17,7 @@ python -m streamlit run app.py --server.address 127.0.0.1 --server.maxUploadSize
 
 ## Use a scan
 
-Under **My scan**, select an original KneeMRI research volume (`.pck`) or a ZIP containing a single, complete sagittal proton-density fat-suppressed knee series in standard DICOM format. Files are processed in memory by the local Python server. The app performs local inference without an external model API.
+Under **My scan**, select a single-scan Kaggle ZIP, an extracted KneeMRI research volume (`.pck`), or a ZIP containing one complete sagittal proton-density fat-suppressed DICOM series. The middle slice appears before you click **Analyze scan**. For a DICOM series, confirm the acquisition protocol first. When an upload matches a bundled research example, **Compare with the recorded finding** is available after prediction. Files are processed in memory by the local Python server. The app performs local inference without an external model API.
 
 For DICOM, use 8–128 uncompressed, classic, single-frame grayscale slices. The program checks series membership, orientation, slice spacing and image dimensions, orders slices by position, and orients the images consistently. The user selecting the series must verify the knee anatomy and acquisition sequence. The system does not automatically recognize every type of hospital MRI. A PDF, phone photo, single screenshot or full multiseries study is unsupported.
 
