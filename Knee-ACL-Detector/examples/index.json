@@ -1,0 +1,10 @@
+{
+  "Example 1": {
+    "file": "390116-9.pck",
+    "finding": "ACL labeled healthy."
+  },
+  "Example 2": {
+    "file": "457511-7.pck",
+    "finding": "ACL labeled partially injured."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "Clinical Hospital Centre Rijeka / KneeMRI via Kaggle",
+  "seed": 38,
+  "unit": "MRI series, grouped by exam ID",
+  "metadata_without_scan": 181,
+  "training_series": 588,
+  "training_exams": 582,
+  "heldout_series": 148,
+  "heldout_exams": 146,
+  "diagnosis_counts": {
+    "0": 547,
+    "1": 144,
+    "2": 45
+  },
+  "sensitivity": 0.5263157894736842,
+  "specificity": 0.7363636363636363,
+  "auroc": 0.7059808612440192,
+  "true_positive": 20,
+  "true_negative": 81,
+  "false_positive": 29,
+  "false_negative": 18,
+  "training_oof_auroc": 0.7867307196872111,
+  "C": 0.01
+}
